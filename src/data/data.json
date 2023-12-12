@@ -1,0 +1,68 @@
+{
+  "companies": [
+    {
+      "id": "_qazwsx98r",
+      "name": "ИП Вася Пупкинc",
+      "employeesCount": 2,
+      "address": "Проспект Синий, 456123"
+    },
+    {
+      "id": "_poiuyt42s",
+      "name": "ГиперКом",
+      "employeesCount": 2,
+      "address": "Переулок Красный, 789"
+    },
+    {
+      "id": "_mnbvcx56f",
+      "name": "МегаКорп",
+      "employeesCount": 2,
+      "address": "Площадь Желтая, 101"
+    },
+    {
+      "id": "_mdiqd5rbo",
+      "name": "Компания 1",
+      "address": "адрес там",
+      "employeesCount": 0
+    },
+    {
+      "id": "_zlaf81bh0",
+      "name": "Компания 3м",
+      "address": "Адрес 2м",
+      "employeesCount": 0
+    }
+  ],
+  "employees": [
+    {
+      "id": "_qazwsc98r",
+      "lastName": "Беляева",
+      "firstName": "Екатерина",
+      "position": "Дизайнер",
+      "companyId": "_qazwsx98r",
+      "companyName": "ИП Вася Пупкинc"
+    },
+    {
+      "id": "_lenjvqyhl",
+      "lastName": "Там че",
+      "firstName": "Че там",
+      "position": "это",
+      "companyId": "_mnbvcx56f",
+      "companyName": "МегаКорп"
+    },
+    {
+      "id": "_5i4qk7877",
+      "lastName": "Dudus",
+      "firstName": "Deni",
+      "position": "Строитель",
+      "companyId": "_qazwsx98r",
+      "companyName": "ИП Вася Пупкинc"
+    },
+    {
+      "id": "_78bbvd73t",
+      "lastName": "Dudus",
+      "firstName": "Denis",
+      "position": "Дизайнер",
+      "companyId": "_poiuyt42s",
+      "companyName": "ГиперКом"
+    }
+  ]
+}

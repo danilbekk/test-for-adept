@@ -1,0 +1,11 @@
+.addButtons {
+  display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

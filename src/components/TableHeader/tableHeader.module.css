@@ -1,0 +1,51 @@
+.tr {
+  display: table-row;
+}
+
+.tr:nth-child(even) .td {
+  background: #f5f5f5;
+}
+
+.tr:nth-child(odd) .td {
+  background: #fff;
+}
+
+.td,
+.th {
+  display: table-cell;
+  padding: 8px 10px;
+  /* white-space: nowrap; */
+  border-bottom: 0.2px solid #fff;
+  border-right: 0.2px solid #fff;
+}
+
+.thead {
+  display: table-header-group;
+  font-weight: bold;
+  z-index: 1;
+}
+
+
+.th {
+  position: sticky;
+  background-color: #202932;
+  color: #fff;
+}
+
+.th {
+  top: 0;
+}
+
+
+.thead div.th:first-child {
+  left: 0;
+  width: 10%;
+}
+
+.th>input {
+  margin-right: 20px;
+}
+
+.th {
+  bottom: 0;
+}

@@ -1,0 +1,13 @@
+.td {
+  display: table-cell;
+  padding: 8px 10px;
+  word-break: break-all;  
+  border-bottom: 0.2px solid #fff;
+  border-right: 0.2px solid #fff;
+}
+
+.td > textarea {
+  width: 100%;
+  resize: vertical;
+  max-height: 50px;
+}

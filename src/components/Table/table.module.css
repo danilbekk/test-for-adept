@@ -1,0 +1,114 @@
+
+.table_scroll {
+  height: 200px;
+  overflow: auto;
+  resize: vertical;
+  width: 100%;
+  box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Div Table Setting */
+.table {
+  display: table;
+  position: relative;
+  width: 100%;
+}
+
+.tr {
+  display: table-row;
+}
+
+
+.tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+/* Стили для нечетных строк и фона .td, когда isSelected равно false */
+.tr:nth-child(odd) {
+  background: #fff;
+}
+
+/* Стили для выделенных строк и фона .td, когда isSelected равно true */
+.tr.selected {
+  background: #b3d4fc;
+}
+
+.td,
+.sd {
+  display: table-cell;
+  padding: 8px 10px;
+  white-space: nowrap;
+  border-bottom: 0.2px solid #fff;
+  border-right: 0.2px solid #fff;
+}
+
+
+.tbody {
+  display: table-row-group;
+}
+
+.sd {
+  background-color: #202932;
+  color: #fff;
+}
+
+.sd>input {
+  margin-right: 20px;
+}
+
+
+.sd {
+  left: 0;
+}
+
+
+
+
+/* Responsive Div Table
+@media screen and (max-width: 650px) {
+  .table {
+    border: 0;
+  }
+
+  .table .thead,
+  .table .tfoot {
+    display: none;
+  }
+
+  .table .tr {
+    margin-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid #ddd;
+  }
+
+  .table .td,
+  .table .sd {
+    display: block;
+    text-align: right;
+    font-size: 13px;
+    border-bottom: 1px dotted #ccc;
+    border-left: 1px solid #ddd;
+  }
+
+  .table .td:last-child {
+    border-bottom: 0;
+  }
+
+  .table .td:before,
+  .table .sd:before {
+    content: attr(data-label);
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .table_scroll {
+    margin: 0;
+    height: auto !important;
+  }
+
+  .tr:nth-child(even) .td {
+    background: #fff;
+  }
+} */
+
